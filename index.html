@@ -429,7 +429,8 @@
           <b class="footer-b">Subscribe</b>
           <form class="footer-form">
             <input
-              type="text"
+              type="email"
+              name="footer_mail"
               class="footer-input"
               placeholder="E-mail"
               required
@@ -444,7 +445,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
           <svg class="close-modal" width="8" height="8">
@@ -514,10 +515,11 @@
               name="user_policy"
               class="modal-check visually-hidden"
             />
-            <span class="modal-checkbox-icon"> </span>
-            <svg class="checkbox-icon" width="10" height="8">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg>
+            <span class="modal-checkbox-icon">
+              <svg class="checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
             I accept the terms and conditions of the&nbsp;
             <a href="" class="check-link">Privacy Policy</a></label
           >
